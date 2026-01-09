@@ -15,6 +15,7 @@ backend/node_modules/
 backend/npm-debug.log*
 backend/yarn-debug.log*
 backend/yarn-error.log*
+backend/package-lock.json
 
 # Environment variables
 backend/.env
@@ -40,7 +41,7 @@ Thumbs.db
 *.log
 logs/
 
-# APK files (optional - uncomment if you don't want to commit APK)
+# APK files (keep for submission)
 # *.apk
 
 # Temporary files
@@ -61,6 +62,16 @@ out/
 coverage/
 *.lcov
 
-# Test
+# Test files (development only)
 test_driver/
 integration_test/driver/
+test-*.bat
+test-*.js
+
+# Documentation drafts (keep only final versions)
+*_DRAFT.md
+*_OLD.md
+*_BACKUP.md
+
+# Git
+.git/
